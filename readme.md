@@ -12,7 +12,6 @@ I wireframed and pseudocoded, and took a functional based approach so that it wa
 Unsolved Problems
 ------------
 - Prevent user from clicking the same card twice
-- Show visual for when user clicks on two cards that don't match, indicating to start over
 - Fix spacing (currently, too wide) from initial image to "flipped" image 
 
 

@@ -18,8 +18,24 @@ h1 {
 h2, marquee {
   text-align: center;
   font-family: "Rugrats";
-  font-size: 50px;
+  font-size: 75px;
   margin: 0;
+}
+
+.alert {
+  font-family: "Rugrats";
+  padding: 20px;
+  background-color: yellow;
+  border-style: solid;
+  color: black;
+  width: 300px;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.is-hidden {
+  display: none;
 }
 
 .card_container {

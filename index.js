@@ -47,9 +47,13 @@ let checkForMatch = function() {
 			}
 	    } else {	
 	    	scoreBoard.innerText = 'Score: ' + (score=0);    	
-	        flipCardOver();    
-	        alert('Try again!') 
-	    }
+	        flipCardOver();  
+	        document.querySelector('.is-hidden').style.display ="block";  
+	        document.querySelector('.is-hidden').addEventListener('click', function(e) {
+	        	this.style.display='none';
+	        	}) 
+
+	        }
 	    	cardsInPlay.shift();
 	    	cardsInPlay.shift();  
     } 
