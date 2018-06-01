@@ -47,7 +47,8 @@ let checkForMatch = function() {
 			}
 	    } else {	
 	    	scoreBoard.innerText = 'Score: ' + (score=0);    	
-	        flipCardOver();     
+	        flipCardOver();    
+	        alert('Try again!') 
 	    }
 	    	cardsInPlay.shift();
 	    	cardsInPlay.shift();  
