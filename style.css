@@ -1,9 +1,118 @@
+body {
+  background-image: url('rugrats2.png');
+}
+
+
 h1 {
 	text-align: center;
+  font-size: 150px;
+  font-family: "Rugrats";
+  margin: 0;
 
+}
+
+#instructions {
+  background-color: yellow;
+}
+
+h2, marquee {
+  text-align: center;
+  font-family: "Rugrats";
+  font-size: 50px;
+  margin: 0;
 }
 
 .card_container {
 	display: grid;
-	
+	grid-template-rows: 250px 250px; 
+	grid-template-column: 225px 225px 225px 225px;
+  column-gap: 20px;
+  row-gap:20px;
 } 
+
+.card {
+  background-image: url('reptar.gif');
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+ img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card .hidden {
+  display: none;
+}
+
+.card-1 {
+  grid-column: 1 / span 1;
+}
+
+.card-2 {
+  grid-column: 2 / span 1;
+}
+
+.card-3 {
+  grid-column: 3 / span 1;
+}
+
+.card-4 {
+  grid-column: 4 / span 1;
+}
+
+
+.card-5 {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.card-6 {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;  
+}
+
+.card-7 {
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 1;
+}
+
+.card-8 {
+  grid-row: 2 / span 1;
+  grid-column: 4 / span 1;
+}
+
+.tommy {
+  background-image: url('tommy.png');
+  background-size: 140px;
+  background-repeat: no-repeat;
+}
+
+.angelica {
+  background-image: url('angelica.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.susie {
+  background-image: url('susie.png');
+  background-size: 167px;
+  background-repeat: no-repeat;
+}
+
+.chuckie {
+  background-image: url('chuckie.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+footer {
+  font-family: "Rugrats";
+  font-size: 50px;
+  text-align: center;
+  background-color: yellow;
+  font-weight: bold;
+  box-shadow: 10px 10px;
+
+
+}

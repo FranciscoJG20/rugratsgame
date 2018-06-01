@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Flash Cards</title>
+	<title>Memory Card Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-	<h1>Flash Cards!</h1>
+	<h1>Memory Card!</h1>
+	<marquee behavior="alternate" id="instructions"> Instructions: Match the four sets of cards. For each consecutive match, you win 25 points!</marquee>
+	<h2 class="score">Score:0</h2>	
 	<main>
-	<div class="card container">
-		<div class="card card-1">I'm card 1</div>
-		<div class="card card-2">I'm card 2</div>
-		<div class="card card-3">I'm card 3</div>
-		<div class="card card-4">I'm card 4</div>
-		<div class="card card-5">I'm card 5</div>
-		<div class="card card-6">I'm card 6</div>
-		<div class="card card-7">I'm card 7</div>
-		<div class="card card-8">I'm card 8</div>
+	<div class="card_container">
+		<div class="card card-1" data-card-number="1">
+			<img class="hidden" src="./tommy.png">
+		</div>
+		<div class="card card-2" data-card-number="2">
+			<img class="hidden" src="./susie.png">
+		</div>
+		<div class="card card-3" data-card-number="3">
+			<img class="hidden" src="./chuckie.png">
+		</div>
+		<div class="card card-4" data-card-number="4">
+			<img class="hidden" src="./angelica.png">
+		</div>
+		<div class="card card-5" data-card-number="4">
+			<img class="hidden" src="./angelica.png">
+		</div>
+		<div class="card card-6" data-card-number="3">
+			<img class="hidden" src="./chuckie.png">
+		</div>
+		<div class="card card-7" data-card-number="1">
+			<img class="hidden" src="./tommy.png">
+		</div>
+		<div class="card card-8" data-card-number="2">
+			<img class="hidden" src="./susie.png">
+		</div>
 	</div>	
 
 	</main>
-	<footer></footer>
+	<br>
+	<footer> Developed and designed by Francisco Gutierrez. Images provided by Google. Copywright 2018.</footer>
+	<script type="text/javascript" src="index.js"></script>
 
 </body>
 </html>
