@@ -25,7 +25,7 @@ Visit source code (see below) and do the following:
 
 Contribute
 ----------
-Source Code: https://github.com/FranciscoJG20/rugratsgame/blob/gh-pages/readme.md
+Source Code: https://github.com/FranciscoJG20/rugratsgame/tree/gh-pages
 
 Support
 -------
