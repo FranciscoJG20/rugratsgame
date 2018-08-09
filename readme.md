@@ -25,7 +25,7 @@ Visit source code (see below) and do the following:
 
 Contribute
 ----------
-Source Code: https://github.com/FranciscoJG20/game
+Source Code: https://github.com/FranciscoJG20/rugratsgame/edit/gh-pages
 
 Support
 -------
